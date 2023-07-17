@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyPower</string>
+    <string name="screen1">Know Your Bill</string>
+    <string name="screen2">Send Your Readings</string>
+    <string name="screen3">Apply for New Connection</string>
+    <string name="screen1desc">You can check and download your bill using this applications</string>
+    <string name="screen2desc">Send the current readings of your meter. You can also attach a photo</string>
+    <string name="screen3desc">You can use the app to apply for power supply.</string>
+    <string name="startDesc">Proceed To the Homepage By Clicking the button below</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

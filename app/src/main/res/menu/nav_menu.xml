@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/new_appl"
+            android:icon="@drawable/newsupplya"
+            android:title="New Applications"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/feed_back"
+            android:icon="@drawable/feedbacka"
+            android:title="Feedback"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/power_failure"
+            android:icon="@drawable/reporta"
+            android:title="Report Power Failure"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/bill_token"
+            android:icon="@drawable/tokena"
+            android:title="My Bill/My Token"
+            tools:ignore="HardcodedText" />
+
+
+
+        <item
+            android:id="@+id/simulation"
+            android:icon="@drawable/billa"
+            android:title="Bill Simulation"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/jua_sure"
+            android:icon="@drawable/juaa"
+            android:title="Jua For Sure"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/about_a"
+            android:icon="@drawable/abouta"
+            android:title="About"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/faqsa"
+            android:title="FAQs"
+            tools:ignore="HardcodedText" />
+    </group>
+
+
+
+</menu>
