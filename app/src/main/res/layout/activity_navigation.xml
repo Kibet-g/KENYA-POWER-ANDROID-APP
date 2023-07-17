@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationActivity">
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/dotIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/slideViewPager">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="144dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="82dp"
+        android:background="#00000000"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Skip"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="82dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Next"
+        android:radius="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
