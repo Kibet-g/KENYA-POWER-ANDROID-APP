@@ -28,7 +28,7 @@ tools:context=".MybillTokenFragment">
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/frame_21"
+    android:id="@+id/notification_background"
     android:layout_width="343dp"
     android:layout_height="59dp"
     android:layout_alignParentLeft="true"
@@ -67,46 +67,38 @@ tools:context=".MybillTokenFragment">
 
 </RelativeLayout>
 
-    <View
-        android:id="@+id/ellipse_11"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="39dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="184dp"
-        android:background="@drawable/ic_baseline_radio_button_unchecked_24"
-        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
 
-    <TextView
-        android:id="@+id/email_addre"
-        android:layout_width="81dp"
-        android:layout_height="15dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="59dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="182dp"
-        android:text="@string/email_addre"
-        android:textAppearance="@style/email_addre"
-        android:gravity="top"
-        />
+        <RadioButton
+            android:id="@+id/radio_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Adress"
+            android:layout_marginTop="180dp"
+            android:checked="false"
+            android:layout_marginLeft="80dp"
+            android:textSize="15dp"
+            />
 
-    <View
-        android:id="@+id/ellipse_12"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="39dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="208dp"
-        android:background="@drawable/ic_baseline_radio_button_unchecked_24"
-        />
+        <RadioButton
+            android:id="@+id/radio_mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:checked="false"
+            android:textSize="15dp" />
+    </RadioGroup>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
         android:padding="24dp">
 
         <EditText
@@ -116,13 +108,13 @@ tools:context=".MybillTokenFragment">
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="39dp"
-            android:hint="Search"
-            android:layout_marginTop="252dp"
+            android:layout_marginTop="250dp"
             android:background="@drawable/custom_edittext"
+            android:clipToOutline="true"
             android:drawableRight="@drawable/ic_baseline_search_24"
             android:drawablePadding="8dp"
-            android:padding="8dp"
-            android:clipToOutline="true" />
+            android:hint="Search"
+            android:padding="8dp" />
 
 
     </LinearLayout>
