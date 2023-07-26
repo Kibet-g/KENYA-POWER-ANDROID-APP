@@ -7,11 +7,20 @@
     <group
         android:checkableBehavior="single">
 
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"
+            android:iconTint="@color/white"
+            tools:ignore="HardcodedText" />
+
         <item
             android:id="@+id/new_appl"
             android:icon="@drawable/newsupplya"
             android:title="New Applications"
             tools:ignore="HardcodedText" />
+
 
         <item
             android:id="@+id/feed_back"

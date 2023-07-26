@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- styles.xml -->
+    <style name="for_more_de">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="convinient_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#003DB5</item>
+    </style>
+
+    <style name="email_addre">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

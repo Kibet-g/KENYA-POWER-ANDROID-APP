@@ -1,18 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MybillTokenFragment">
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MybillTokenFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+<!-- TODO: Update blank fragment layout -->
+<Button
+    android:id="@+id/btnPrevious"
+    android:layout_width="73dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="20dp"
+    android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+<TextView
+    android:id="@+id/new_supply_"
+    android:layout_width="185dp"
+    android:layout_height="19dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="92dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="61dp"
+    android:text="@string/new_supply_"
+
+    android:gravity="top"
+    />
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_21"
+    android:layout_width="343dp"
+    android:layout_height="59dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="10dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="99dp"
+    android:clipToOutline="true"
+    android:background="#FFD60A">
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/for_more_de"
+        android:layout_width="278dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/for_more_de"
+        android:textAppearance="@style/for_more_de"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/convinient_"
+        android:layout_width="180dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/convinient_"
+        android:textAppearance="@style/convinient_"
+        android:gravity="top"
+        />
+
+
+
+</RelativeLayout>
+
+    <View
+        android:id="@+id/ellipse_11"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/ic_baseline_radio_button_unchecked_24"
+        />
+
+    <TextView
+        android:id="@+id/email_addre"
+        android:layout_width="81dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:text="@string/email_addre"
+        android:textAppearance="@style/email_addre"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/ellipse_12"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/ic_baseline_radio_button_unchecked_24"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Bill/ My Token Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/white"
-        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp">
+
+        <EditText
+            android:id="@+id/search_frame"
+            android:layout_width="290dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="39dp"
+            android:hint="Search"
+            android:layout_marginTop="252dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:clipToOutline="true" />
+
+
+    </LinearLayout>
 
 </FrameLayout>
